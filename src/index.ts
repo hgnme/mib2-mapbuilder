@@ -6,7 +6,7 @@ import templates from './template/main';
 import fs from 'fs';
 import xmlformatter from 'xml-formatter'
 
-const baseDirectory = getGitDir().trim() + '/app/vw/aus/MapConfigBuilder';
+const baseDirectory = getGitDir().trim();
 if (!fs.existsSync(baseDirectory + '/rendered')) {
   fs.mkdirSync(baseDirectory + '/rendered');
 }
