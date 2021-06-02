@@ -2,6 +2,10 @@
   "name": "vw-maps-aus",
   "version": "0.0.1",
   "description": "maps builder for vw-aus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hgnme/mib2-mapbuilder.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,11 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/mustache": "^4.1.1",
     "mustache": "^4.2.0",
     "xml-formatter": "^2.4.0"
   },
   "devDependencies": {
+    "@types/mustache": "^4.1.1",
     "@types/node": "^15.6.1",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
