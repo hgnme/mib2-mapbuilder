@@ -1,4 +1,4 @@
-export default [
+export const options = [
   { name: 'manoeuvre_arrow_eatup', value: 1 },
   { name: 'manoeuvre_arrow_shadow_enabled', value: 1 },
   { name: 'manual_selected_roads', value: 1 },

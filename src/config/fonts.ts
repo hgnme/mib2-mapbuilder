@@ -44,8 +44,7 @@ const mib2Fonts = [
   { type: 'poi_fuelprice_label', id: 10000, outline_width: 1 }
 ];
 
-const fonts = {
+export const fonts = {
   [displaySize.kombi]: kombiFonts,
   [displaySize.mib2]: mib2Fonts
 };
-export { fonts }

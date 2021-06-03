@@ -1,4 +1,4 @@
-export default [
+export const patterns = [
   {
     id: 0,
     name: 'Railway (Orthogonal)',

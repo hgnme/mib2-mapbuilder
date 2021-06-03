@@ -1,4 +1,4 @@
-export default [
+export const visibilities = [
   { name: 'road', min: 0, max: 1786048 },
   { name: 'manually_selected_road', min: 0, max: 893184 },
   { name: 'one_way_street_arrow', min: 0, max: 450 },

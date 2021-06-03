@@ -1,31 +1,20 @@
 import * as helpers from './functions/helpers';
 
 import { displaySize, colourStyle } from './properties';
-import colours_day from './config/colours_day';
-import colours_night from './config/colours_night';
-import dtmColours_day from './config/colours/day/dtmColours';
-import dtmColours_night from './config/colours/night/dtmColours';
-import patterns from './config/patterns'
-import { roads as sizeconfiguration } from './config/roadsize'
-import tuningOptions from './config/tuningOptions'
-import options from './config/options'
-import visibilities from './config/visibilities';
-import bitmaps from './config/bitmaps';
-import { fonts } from './config/fonts';
-import drawingorderconfiguration from './config/drawingorder';
+import * as config from './config/config';
 
 
 const colourConfigs = {
   [colourStyle.day]: {
-    colours: colours_day,
-    dtmColors: dtmColours_day,
-    options: options
+    colours: config.coloursDay,
+    dtmColors: config.dtmColoursDay,
+    options: config.options
   },
   [colourStyle.night]: {
-    colours: colours_night,
-    dtmColors: dtmColours_night,
+    colours: config.coloursNight,
+    dtmColors: config.dtmColoursNight,
     options: (() => {
-      const ree = helpers.JSONClone(options);
+      const ree = helpers.JSONClone(config.options);
       for (let option of ree) {
         if (option.name === 'texture_variant') {
           option.value = 1;
@@ -37,12 +26,12 @@ const colourConfigs = {
 };
 const sizeConfigs = {
   [displaySize.kombi]: {
-    roadSize: helpers.roadSizeToKombi(helpers.JSONClone(sizeconfiguration), 1 / 1.330078125),
-    fonts: fonts[displaySize.kombi]
+    roadSize: helpers.roadSizeToKombi(helpers.JSONClone(config.sizeconfiguration), 1 / 1.330078125),
+    fonts: config.fonts[displaySize.kombi]
   },
   [displaySize.mib2]: {
-    roadSize: helpers.JSONClone(sizeconfiguration),
-    fonts: fonts[displaySize.mib2]
+    roadSize: helpers.JSONClone(config.sizeconfiguration),
+    fonts: config.fonts[displaySize.mib2]
   }
 };
 
@@ -124,16 +113,16 @@ const maps = [
 for (let map of maps) {
   map.config = {
     name: map.name,
-    patterns,
+    patterns: config.patterns,
     colours: colourConfigs[map.color].colours,
     options: colourConfigs[map.color].options,
     sizeconfiguration: sizeConfigs[map.size].roadSize,
     fonts: sizeConfigs[map.size].fonts,
     dtmColours: colourConfigs[map.color].dtmColors,
-    visibilities,
-    bitmaps,
-    tuningOptions,
-    drawingorderconfiguration: helpers.drawingOrderGenerate(drawingorderconfiguration),
+    visibilities: config.visibilities,
+    bitmaps: config.bitmaps,
+    tuningOptions: config.tuningOptions[map.size],
+    drawingorderconfiguration: helpers.drawingOrderGenerate(config.drawingOrder),
     toVWColour: helpers.toVWColour
   };
 }

@@ -1,4 +1,4 @@
-export default [
+export const drawingOrder = [
   'polygon', 'dtm', 'manoeuvre_arrow', 'lane_guidance_marker', 'trekking_tour',
   'direction_arrow', 'polygon_name', 'edge_highlighting', 'tti_arrow', 'tti_edge_highlighting',
   'road', 'one_way_street_arrow', 'bread_crumb_trail', 'offroad_route', 'route',

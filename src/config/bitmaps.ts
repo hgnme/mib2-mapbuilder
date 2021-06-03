@@ -1,4 +1,4 @@
-export default [
+export const bitmaps = [
   { type: 'horizon', id: 2, },
   { type: 'haze', id: 4, },
   { type: 'roadname_marker', id: 199, size: 10 },

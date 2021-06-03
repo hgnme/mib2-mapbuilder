@@ -1,4 +1,4 @@
-export default {
+export const dtmColoursDay = {
   colormapresolution: 13400,
   interpolationType: 0,
   heightScaleTop: {

@@ -1,4 +1,7 @@
-export default [
+import { displaySize } from '../properties';
+import screenTuning from './screenTuning/screenTuning';
+
+const defaultOptions = [
   { name: 'polygon_name_overlap', value: '768', type: 'fixed8' },
   { name: 'marker_overlap', value: '13', type: 'int' },
   { name: 'roadname_edge_aligned', value: '0', type: 'uint' },
@@ -47,10 +50,6 @@ export default [
   { name: 'weather_label_scale_factor_far', value: '256', type: 'fixed8' },
   { name: 'poi_fuelprice_label_scale_factor_near', value: '256', type: 'fixed8' },
   { name: 'poi_fuelprice_label_scale_factor_far', value: '256', type: 'fixed8' },
-  { name: 'color_red_factor', value: '250', type: 'fixed8' },
-  { name: 'color_green_factor', value: '256', type: 'fixed8' },
-  { name: 'color_blue_factor', value: '256', type: 'fixed8' },
-  { name: 'color_saturation_factor', value: '256', type: 'fixed8' },
   { name: 'transparency_fade_in_percentage', value: '0', type: 'int' },
   { name: 'transparency_fade_out_percentage', value: '15', type: 'int' },
   { name: 'transparency_fade_in_min_alpha', value: '0', type: 'uint' },
@@ -84,3 +83,8 @@ export default [
   { name: 'road_label_display_expressway', value: '3', type: 'uint' },
   { name: 'road_label_display_countryroad', value: '3', type: 'uint' }
 ];
+
+export const tuningOptions = {
+  [displaySize.kombi]: defaultOptions.concat(screenTuning[displaySize.kombi]),
+  [displaySize.mib2]: defaultOptions.concat(screenTuning[displaySize.mib2])
+};
