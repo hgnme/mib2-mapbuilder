@@ -1,6 +1,7 @@
 
 import mustache from 'mustache';
-import { displaySize, getGitDir } from './properties';
+import { displaySize } from './properties';
+import { getGitDir } from './functions/helpers';
 import { maps } from './map';
 import templates from './template/main';
 import fs from 'fs';
