@@ -123,5 +123,5 @@ export default [
   { name: 'tunnel', outline: { colour: '#4040407F', style: 'solid' }, fill: { colour: '#4040407F', style: 'solid' } },
   { name: 'university_college', outline: { colour: '#000000FF', style: 'solid' }, fill: { colour: '#DCC8DCFF', style: 'transparent' } },
   { name: 'waterway', outline: { colour: '#000000FF', style: 'solid' }, fill: { colour: '#152976', style: 'solid' } },
-  { name: 'woodland', outline: { colour: '#000000FF', style: 'solid' }, fill: { colour: '#2C332CFF', style: 'solid' } }
+  { name: 'woodland', outline: { colour: '#000000FF', style: 'solid' }, fill: { colour: '#20464c', style: 'solid' } }
 ]
