@@ -317,129 +317,129 @@ const roads:roadsizes = [
   },
   {
     name: 'edge_highlighting_preset1', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset2', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset3', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset4', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset5', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset6', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset7', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset8', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset9', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset10', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset11', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset12', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset13', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset14', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset15', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   },
   {
     name: 'edge_highlighting_preset16', sizes: [
-      { resolution: '256', inline: '1362', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '2560', inline: '681', outline: '1021', delta: '0', use_road_width: 'false' },
-      { resolution: '263680', inline: '128', outline: '128', delta: '0', use_road_width: 'false' },
+      { resolution: '256', inline: '500', outline: '400', delta: '0', use_road_width: 'false' },
+      { resolution: '2560', inline: '200', outline: '150', delta: '0', use_road_width: 'false' },
+      { resolution: '263680', inline: '60', outline: '60', delta: '0', use_road_width: 'false' },
       { resolution: '768000', inline: '0', outline: '0', delta: '0', use_road_width: 'false' },
     ]
   }
