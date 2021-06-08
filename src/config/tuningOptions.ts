@@ -4,7 +4,7 @@ import screenTuning from './screenTuning/screenTuning';
 const defaultOptions = [
   { name: 'polygon_name_overlap', value: '768', type: 'fixed8' },
   { name: 'marker_overlap', value: '13', type: 'int' },
-  { name: 'roadname_edge_aligned', value: '0', type: 'uint' },
+  { name: 'roadname_edge_aligned', value: '1', type: 'uint' },
   { name: 'roadname_use_marker', value: '0', type: 'uint' },
   { name: 'roadname_marker_alignment', value: '1', type: 'int' },
   { name: 'roadname_marker_distance', value: '9', type: 'int' },

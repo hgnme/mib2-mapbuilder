@@ -25,7 +25,7 @@ const kombiFonts = [
 const mib2Fonts = [
   { type: 'city_label', id: 1200, outline_width: 3 },
   { type: 'road_label', id: 6350, size: 10, outline_width: 1 },
-  { type: 'road_label', id: 6300, size: 30, outline_width: 2 },
+  { type: 'road_label', id: 6300, size: 30, outline_width: 1 },
   { type: 'road_number', id: 1450, outline_width: 0 },
   { type: 'poi_label', id: 100, outline_width: 0 },
   { type: 'polygon_label', id: 100, outline_width: 0 },
