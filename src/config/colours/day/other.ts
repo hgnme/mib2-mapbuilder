@@ -1,6 +1,6 @@
 export default [
   { name: 'capital_city_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#bdbcba', style: 'solid' } },
-  { name: 'city_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#bdbcba', style: 'solid' } },
+  { name: 'city_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#2a2a26', style: 'solid' } },
   { name: 'horizon_marker_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#FFFFFFFF', style: 'solid' } },
   { name: 'island_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#FFFFFFFF', style: 'solid' } },
   { name: 'poi_fuelprice_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#FFFFFFFF', style: 'solid' } },
