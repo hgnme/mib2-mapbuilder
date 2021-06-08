@@ -10,7 +10,7 @@ export default [
   { name: 'province_capital_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#bfcde7', style: 'solid' } },
   { name: 'province_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#bfcde7', style: 'solid' } },
   { name: 'river_label', outline: { colour: '#FFFFFF00', style: 'solid' }, fill: { colour: '#798691FF', style: 'solid' } },
-  { name: 'road_label', outline: { colour: '#444444FF', style: 'solid' }, fill: { colour: '#bfcde7', style: 'solid' } },
+  { name: 'road_label', outline: { colour: '#000000', style: 'solid' }, fill: { colour: '#bfcde7', style: 'solid' } },
   { name: 'sea_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#FFFFFFFF', style: 'solid' } },
   { name: 'waterway_label', outline: { colour: '#FFFFFF00', style: 'solid' }, fill: { colour: '#97A7C6FF', style: 'solid' } },
   { name: 'weather_label', outline: { colour: '#FFFFFFFF', style: 'solid' }, fill: { colour: '#FFFFFFFF', style: 'solid' } },
