@@ -1,3 +1,4 @@
 build/
 rendered/
 node_modules/
+screenshot*
